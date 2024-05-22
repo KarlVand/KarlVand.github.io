@@ -1,52 +1,63 @@
 body {
     background-color: rgb(240, 199, 17);
     position: relative;
+    
 }
 
 
-h1, h2 {
+h1, h2, .icons {
     font-family: monospace;
     text-transform: uppercase;
     justify-content: right;
     margin-right: 7%;
     display: flex;
+    
+    
 }
 
 
 h1 {
+    position: relative;
     font-size: 900%;
     color: rgb(253, 252, 252);
-    place-content: middle;
+    
 }
 
 
 h2 {
     font-size: 500%;  
-    color:rgb(219, 137, 137);
+    color:rgb(0, 0, 0);
+ 
 }
 
 
 .linetitle {
+    position: static;
+    transform: translate (2000, 500, 0, 0)
     width: 100%;
     height: 18px;
-    background-color: #fff;
-    justify-content: center;
-    margin-top: 21%;
-}
-
-
-.title {
-    padding: 0%;
+    background-color: #000000;
+    
+    
 }
 
 .icons {
-    position: absolute;
+    
     content: right;
-    width: 84px;
-    height: 84px;;
-    padding-left: 18%;
+    
+    
 }
 
 img {
     padding-right: 54px;
+    width: 84px;
+    height: 84px;
+
+}
+
+img:hover {
+    width: 108px;
+    height: 108px;
+    align-self: center;
+    color: antiquewhite;
 }
