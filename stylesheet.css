@@ -3,32 +3,37 @@
 body {
     background-color: rgb(240, 199, 17);
     display: flex;
+    justify-self: auto;
     
 }
 .container {
-    display: flex;
     justify-content: flex-end;
-    right: 5vw;
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    right: 5%;
     height: 80vh;
-    width: 60vw;
+    width: 100%;
+
 }
 
-.name, .line, .description, .icons {
-    position: relative;
+.name, .description, .icons {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-self: flex-end;
-    width: 100%;
+    
 }
 
-/*
+
 hr {
     position: relative;
-    height: 10px;
-    width: 100vw;
-    color: black;
+    height: 1vh;
+    width: 120vw;
+    background-color: black;
+    border: none;
+    left: 0;
 }
-*/
+
 
 
 
@@ -73,8 +78,9 @@ h2 {
 /* RESPONSIVE POSITIONNING (flex) */
 
 @media screen and (max-width:500px) {
-    .container {
-        width: 100vw;
+ 
+    hr {
+        height: 0.5vh;
     }
 
 }
