@@ -1,0 +1,48 @@
+[33mcommit 495b3e0759abff3601876da5ff30f2da3eea6070[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Fri May 24 14:35:44 2024 +0200
+
+    grid
+
+[33mcommit 7c508e216f7777c10e018a98f629dc700963d7b1[m[33m ([m[1;32mgrid[m[33m)[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Fri May 24 14:08:21 2024 +0200
+
+    gridtest
+
+[33mcommit 9823796ca0de7ab748c91812a1f528879fdca29f[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Fri May 24 13:49:11 2024 +0200
+
+    flextest
+
+[33mcommit 72f17c1e0f441d05644b7690036ec505d6384882[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mflex[m[33m)[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Wed May 22 14:10:26 2024 +0200
+
+    version1
+
+[33mcommit 31196bd76c0e2081a36d605b4018abae3af2769a[m[33m ([m[1;32mbase[m[33m)[m
+Merge: ce968e0 c3e0b53
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Wed May 22 11:27:03 2024 +0200
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit ce968e06129a914209ddebf8aa29a359e5068c8d[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Wed May 22 11:06:23 2024 +0200
+
+    elements
+
+[33mcommit c3e0b53f8ca0ddc6171df41ce7efef2c9bfa06aa[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Tue May 21 14:09:44 2024 +0200
+
+    setup
+
+[33mcommit a9a9c4d3e8feabd05763de202d136f960587e7eb[m
+Author: KarlVand <cg.vandooren.karl@gmail.com>
+Date:   Tue May 21 14:04:38 2024 +0200
+
+    setup
