@@ -5,33 +5,30 @@ body {
     display: flex;
     
 }
-
-section {
+.container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     right: 5vw;
-    top: 40vh;
     height: 80vh;
     width: 60vw;
 }
 
 .name, .line, .description, .icons {
     position: relative;
+    flex-wrap: wrap;
     box-sizing: border-box;
     align-self: flex-end;
     width: 100%;
-    
-
 }
 
-
+/*
 hr {
     position: relative;
     height: 10px;
     width: 100vw;
     color: black;
 }
+*/
 
 
 
@@ -40,7 +37,7 @@ hr {
 }
 
 img {
-    padding-left: 54px;
+    padding-left: 2%;
     max-width: 80%;
     max-height: 80%;
 }
@@ -76,7 +73,9 @@ h2 {
 /* RESPONSIVE POSITIONNING (flex) */
 
 @media screen and (max-width:500px) {
-   
-    
+    .container {
+        width: 100vw;
+    }
+
 }
 
